@@ -90,7 +90,7 @@ def Activations(function=None):
                     "Mish": Mish(),
                     "ReLU": nn.ReLU(inplace=True),
                     "ReLU6": nn.ReLU6(inplace=True),
-                    "Leaky ReLU": nn.LeakyReLU(negative_slope=0.2, inplace=True),
+                    "LeakyReLU": nn.LeakyReLU(negative_slope=0.2, inplace=True),
                     "GELU": nn.GELU(),
                     "Sigmoid": nn.Sigmoid(),
                     "Tanh": nn.Tanh()}
